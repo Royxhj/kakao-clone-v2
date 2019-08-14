@@ -1,0 +1,138 @@
+.header__friends__column {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.header__friends__profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__friends__image .user__profile {
+  width: 50px;
+  height: 50px;
+  border-radius: 40%;
+}
+
+.header__friends__profile .header__friends__information {
+  width: 100%;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+  color: black;
+}
+
+.header__friends__information .header__friends__name {
+  font-size: 16px;
+}
+
+.header__friends__information .header__friends__status {
+  font-size: 12px;
+  padding-top: 5px;
+  opacity: 0.5;
+}
+
+.plus__firends__column {
+  margin: 20px 10px 0px 10px;
+  padding-top: 10px;
+  border-top: 1px solid #bac7bf;
+}
+
+.plus__friends__profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+.plus__friends__image .plusfriends {
+  width: 40px;
+  height: 40px;
+  border-radius: 40%;
+}
+
+.plus__friends__profile .plus__friends__information {
+  color: black;
+}
+
+.plus__friends__information {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 16px;
+}
+.plus__friends__icons {
+  opacity: 0.5;
+}
+
+.friends__list__column {
+  margin: 20px 10px 0px 10px;
+  padding-top: 10px;
+  border-top: 1px solid #bac7bf;
+}
+
+.friends__list__profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+.friends__list___image .boa {
+  width: 40px;
+  height: 40px;
+  border-radius: 40%;
+}
+
+.friends__list__profile .friends__list__information {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  color: black;
+  padding-left: 10px;
+}
+
+.friends__list__information .friends__list___name {
+  font-size: 16px;
+}
+
+.friends__list__information .friends__list___status {
+  font-size: 12px;
+  padding-top: 5px;
+  opacity: 0.5;
+}
+.friends__list__music {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 5px 10px;
+  border: 2px solid #52e084;
+  border-radius: 15px;
+  font-size: 11px;
+}
+
+.friends__list__music i {
+  padding-left: 5px;
+  color: green;
+}
+.friends__list___image .bumsoo {
+  width: 40px;
+  height: 40px;
+  border-radius: 40%;
+}
+
+.friends__list___image .son {
+  width: 40px;
+  height: 40px;
+  border-radius: 40%;
+}

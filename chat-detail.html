@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+    <title>Chat | Kakao Clone</title>
+  </head>
+  <body>
+    <div class="phone-style__bg">
+      <div class="phone-style__screen">
+        <div class="status-bar__column">
+          <div class="status-bar__time">
+            <span class="status-bar__current__time">13:54</span>
+          </div>
+          <div class="status-bar__icon__slist">
+            <i class="fas fa-clock"></i>
+            <i class="fas fa-volume-mute"></i>
+            <i class="fas fa-wifi"></i>
+            <span class="battery-mount">99%</span>
+            <i class="fas fa-battery-full"></i>
+          </div>
+        </div>
+
+        <header class="header__column">
+          <div class="header__column__title">
+            <a href="#" onclick="history.back();return false;"
+              ><i class="fas fa-arrow-left"></i
+            ></a>
+            <span class="header__column__title__text">BOA</span>
+          </div>
+          <div class="header__column__icons__list">
+            <div class="header__column__icons__search">
+              <a href="find.html">
+                <i class="fas fa-search"></i>
+              </a>
+            </div>
+            <div class="header__column__icons__setting">
+              <i class="fas fa-bars"></i>
+            </div>
+          </div>
+        </header>
+
+        <main class="chat-screen">
+          <ul class="chat__messages">
+            <span class="chat__timestamp">Wednesday, 14 August 2019</span>
+            <li class="incoming-message message">
+              <img src="images/boa.jpg" class="m-avatar message__avatar" />
+              <div class="message__content">
+                <span class="message__bubble">
+                  Hi Roy, How are you?
+                </span>
+                <span class="message__author">BOA</span>
+              </div>
+            </li>
+            <li class="sent-message message">
+              <div class="message__content">
+                <span class="message__bubble">
+                  Thx! How about you?
+                </span>
+              </div>
+            </li>
+            <li class="incoming-message message">
+              <img src="images/boa.jpg" class="m-avatar message__avatar" />
+              <div class="message__content">
+                <span class="message__bubble">
+                  Good! Thank you! Do you have the time on next week?
+                </span>
+                <span class="message__author">BOA</span>
+              </div>
+            </li>
+            <li class="sent-message message">
+              <div class="message__content">
+                <span class="message__bubble">
+                  Sure, when is it exactly?
+                </span>
+              </div>
+            </li>
+            <li class="incoming-message message">
+              <img src="images/boa.jpg" class="m-avatar message__avatar" />
+              <div class="message__content">
+                <span class="message__bubble">
+                  OK, I will let you know after check it again.
+                </span>
+                <span class="message__author">BOA</span>
+              </div>
+            </li>
+            <li class="incoming-message message">
+              <img src="images/boa.jpg" class="m-avatar message__avatar" />
+              <div class="message__content">
+                <span class="message__bubble">
+                  I wanna meet you!!
+                </span>
+                <span class="message__author">BOA</span>
+              </div>
+            </li>
+            <li class="incoming-message message">
+              <img src="images/boa.jpg" class="m-avatar message__avatar" />
+              <div class="message__content">
+                <span class="message__bubble">
+                  See you soon:)
+                </span>
+                <span class="message__author">BOA</span>
+              </div>
+            </li>
+          </ul>
+        </main>
+        <div class="chat__write--container">
+          <input
+            type="text"
+            class="chat__write"
+            placeholder="Send message"
+            class="chat__write-input"
+          />
+
+          <div class="chat__icon-left chat__icon">
+            <i class="far fa-plus-square"></i>
+          </div>
+
+          <div class="chat__icon-right chat__icon">
+            <span class="chat__write-icon">
+              <i class="far fa-smile-wink"></i>
+            </span>
+            <span class="chat__write-icon">
+              <i class="fas fa-microphone"></i>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bigScreen">
+      <span class="bigScreen__text">Please make your screen small! 😱</span>
+    </div>
+  </body>
+</html>

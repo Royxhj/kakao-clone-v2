@@ -1,0 +1,78 @@
+.chat__list__column {
+  margin: 20px 10px 0px 10px;
+  padding-top: 10px;
+  border-top: 1px solid #bac7bf;
+  text-decoration: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.chat__list__profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+.chat__list___image .boa {
+  width: 40px;
+  height: 40px;
+  border-radius: 40%;
+}
+
+.chat__list__profile .chat__list__information {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  color: black;
+  padding-left: 10px;
+}
+
+.chat__list__information .chat__list___name {
+  font-size: 16px;
+}
+
+.chat__list__information .chat__list___status {
+  font-size: 12px;
+  padding-top: 5px;
+  opacity: 0.5;
+}
+.chat__list__stamp {
+  width: 70px;
+  font-size: 11px;
+  text-align: right;
+  padding: 2px 0px 20px;
+}
+
+.chat__list___image .bumsoo {
+  width: 40px;
+  height: 40px;
+  border-radius: 40%;
+}
+
+.chat__list___image .son {
+  width: 40px;
+  height: 40px;
+  border-radius: 40%;
+}
+
+.chat__list__column .chat__number {
+  position: absolute;
+  top: 225px;
+  left: 325px;
+  font-size: 10px;
+  color: white;
+  background-color: #dc5d46;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}

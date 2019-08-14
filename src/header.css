@@ -1,0 +1,36 @@
+.header__column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px 20px 20px;
+  text-decoration: none;
+}
+
+.header__column .header__column__title {
+  color: black;
+  font-weight: 700;
+}
+
+.header__column .header__column__title__text {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.header__column .header__column__icons__list {
+  color: black;
+  font-size: 16px;
+}
+
+.header__column__icons__list .header__column__icons__setting {
+  padding-left: 10px;
+}
+.header__column__icons__list {
+  color: black;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding-left: 150px;
+}
+.header__column__icons__list i {
+  color: black;
+}

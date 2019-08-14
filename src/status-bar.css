@@ -1,0 +1,12 @@
+.status-bar__column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px 10px 20px;
+}
+
+.status-bar__column .status-bar__current__time,
+.status-bar__icon__slist {
+  color: black;
+  font-weight: 700;
+}

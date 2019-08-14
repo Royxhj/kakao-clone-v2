@@ -1,0 +1,71 @@
+.recommended__firends__column {
+  margin: 20px 10px 0px 10px;
+  padding-top: 10px;
+  border-top: 1px solid #bac7bf;
+}
+
+.recommended__friends__profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+.recommended__friends__image .recommended {
+  width: 40px;
+  height: 40px;
+  border-radius: 40%;
+}
+
+.recommended__friends__profile .recommended__friends__information {
+  color: black;
+}
+
+.recommended__friends__information {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 16px;
+}
+.recommended__friends__icons {
+  opacity: 0.5;
+}
+
+.recommended__friends__information .plus__friends__icons {
+  background-color: #f7f7f7;
+  padding: 7px;
+  color: black;
+  font-size: 12px;
+}
+
+.find__column {
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.find__column__list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.find__column__infomation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  font-size: 11px;
+  opacity: 0.8;
+}
+
+.find__column__infomation .find__column__icon {
+  font-size: 24px;
+}
+
+.find__column__infomation .find__column__text {
+  padding-top: 10px;
+}
